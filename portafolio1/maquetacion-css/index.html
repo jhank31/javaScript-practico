@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/syle-button.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="main-container-menu">
+            <img src="./assets/icon-navbar.png" alt="">
+        </div>
+        <nav>
+            <ul class="container-list">
+                <a href="">
+                    <li>¿Quién soy?</li>
+                </a>
+                <a href="">
+                    <li>Portafolio</li>
+                </a>
+                <a href="">
+                    <li>Contactos</li>
+                </a>
+            </ul>
+            <div class="container-hide">
+                <div class="hide">
+                    <img src="./assets/icons8-menú-64.png" alt="">
+                </div>
+            </div>
+        </nav>
+        
+    </header>
+    <main>
+        <section class="container-principalInfo">
+            <div class="container-photo-profile">
+                <img src="./assets/foto-perfil.png" alt="">
+            </div>
+            <div class="container-principalInfo-text">
+                <h1>Hola, soy Jhancarlos Lenis Arango, esta es mi página de proyectos</h1>
+                <p>Esta página fue creada con el fin de mostrar los proyectos que voy realizando y para brindar infromación sobre mis redes sociales y contacto</p>
+                <a href="mailto:jhanklear31@gmial.com">
+                    <button class="mail-button"><span class="container-nameButton"><span class="container-logo-button"></span>jhanklear31@gail.com</span></button>
+                </a>
+            </div>
+        </section>
+        <section class="container-featured-work">
+            <div class="featured-work-title">
+                <span class="container-iconArrow"></span>
+                <h2>Trabajo destacado</h2>
+                <p>Frontend developer</p>
+            </div>
+            <div class="container-imgs">
+                <img class="container-firstImg"src="./assets/frontend-img.png" alt="imagen de persona escogiendo layouts">
+                <img class="container-firstImg"src="./assets/frontend-img2.jpg" alt="imagen de persona programando">
+                <img class="container-firstImg"src="./assets/frontend-img3.jpg" alt="imagen de persona programando">
+                <img class="container-firstImg"src="./assets/frontend-img4.jpg" alt="imagen de pc desktop">
+             </div>
+        </section>
+        <section class="container-visual-exploration">
+            <h2 class="title-section">
+                Exploración visual
+            </h2>
+            <div class="container-img-visual-exploration">
+                <img src="./assets/Rectangle 6.png" alt="" class="img">
+                <img src="./assets/Rectangle 7.png" alt="" class="img">
+                <img src="./assets/Rectangle 8.png" alt="" class="img">
+                <img src="./assets/Rectangle 9.png" alt="" class="img">
+                <img src="./assets/Rectangle 10.png" alt="" class="img">
+                <img src="./assets/Rectangle 11.png" alt="" class="img">
+            </div>
+            <div class="info-down">
+                <h2>Contáctame</h2>
+                <p>Si buscas contratar un frontend<br> developer, actualmente<br> me encuentro disponible</p>
+                <a href="mailto:jhanklear31@gmial.com">
+                    <button class="button-section-down"><span class="container-nameButton2"><span class="container-logo-button2"></span>jhanklear31@gail.com</span></button>
+                </a>
+            </div>   
+        </section>
+    </main>
+    <footer>
+        <div class="footer-upper-part">
+            <a href="https://api.whatsapp.com/send?phone=3178605783" class="icon icon1"></a>
+            <a href="https://twitter.com/Jhancalenis31" class="icon icon2"></a>
+            <a href="https://www.facebook.com/jhancarlos.lenisarango.1/" class="icon icon3"></a>
+            <a href="https://discord.gg/RmsAEk5v" class="icon icon4"></a>
+            <a href="https://www.instagram.com/j_lenis31/" class="icon icon5"></a>
+        </div>
+        <div class="footer-down-part">
+            <p>
+                Diseñado por JHANCARLOS LENIS ARANGO-Copyright2022
+            </p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(".hide").on('click', function(){
+            $(".container-list").toggle('slow');
+        })
+    </script>
+</body>
+</html>
